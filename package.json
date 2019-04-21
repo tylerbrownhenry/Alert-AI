@@ -1,0 +1,22 @@
+{
+  "name": "alert-ai",
+  "version": "1.0.0",
+  "description": "AI using brain.js for predictable false alerts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerbrownhenry/Alert-AI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylerbrownhenry/Alert-AI/issues"
+  },
+  "homepage": "https://github.com/tylerbrownhenry/Alert-AI#readme",
+  "dependencies": {
+    "brain.js": "^1.6.1"
+  }
+}
