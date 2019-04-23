@@ -5,7 +5,7 @@ const port = 4000;
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
-
+app.use( express.static( "public" ) );
 // index page 
 app.get('/', function(req, res) {
     res.render('pages/index');

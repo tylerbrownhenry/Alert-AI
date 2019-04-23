@@ -5,7 +5,7 @@
 <head>
     <% include ../partials/head %>
 </head>
-<body class="container">
+<body class="container night">
 
 <header>
     <% include ../partials/header %>
@@ -14,29 +14,36 @@
 <main>
     <div class="jumbotron">
             <div class="container">
-                <h1 class="jumbotron-heading">Hackathon</h1>
-                <!-- <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-                <p>
-                    <a href="#" class="btn btn-primary my-2">Get up, open your laptop, log into alertsite</a>
-                    <a href="#" class="btn btn-secondary my-2">Go back to sleep</a>
-                </p> -->
+                    <img class="hide_dark"src="logo_black.png" width="100%"></img>
+                    <img class="hide_light" src="logo_white.png" width="100%"></img>
             </div>
     </div>
 
 
     <div class="jumbotron">
             <div class="container">
-                <h1 class="jumbotron-heading">The problem</h1>
+                <h1 class="jumbotron-heading">Suggestive Alerting</h1>
                 <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-                <p>
+                <!-- <p>
                     <a href="#" class="btn btn-primary my-2">Get up, open your laptop, log into alertsite</a>
                     <a href="#" class="btn btn-secondary my-2">Go back to sleep</a>
-                </p>
+                </p> -->
+            </div>
+    </div>
+
+    <div class="jumbotron">
+            <div class="container">
+                <h1 class="jumbotron-heading">The problem</h1>
+               <p class="lead text-muted">It's Midnight on Saturday, and you have message on your phone...</p> -->
+                <!-- <p> -->
+                    <!-- <a href="#" class="btn btn-primary my-2">Get up, open your laptop, log into alertsite</a> -->
+                    <!-- <a href="#" class="btn btn-secondary my-2">Go back to sleep</a> -->
+                <!-- </p> --> 
             </div>
     </div>
 
 
-    <div class="jumbotron" id="night">
+    <!-- <div class="jumbotron">
             <div class="container">
                 <h1 class="jumbotron-heading">It's </h1>
                 <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
@@ -45,27 +52,45 @@
                     <a href="#" class="btn btn-secondary my-2">Go back to sleep</a>
                 </p>
             </div>
+    </div> -->
+
+
+    <div class="jumbotron" id="night" style="background: none;">
+        <div class="container" style="width: 444px;background: none;">
+            <div class="marvel-device iphone5c blue">
+                <div class="top-bar"></div>
+                <div class="sleep"></div>
+                <div class="volume"></div>
+                <div class="camera"></div>
+                <div class="sensor"></div>
+                <div class="speaker"></div>
+                <div class="screen">
+                    <!-- Content goes here -->
+                    <% include ../partials/alert %>
+                    <img class="alert" src="alert.png" width="100%">
+                </div>
+                <div class="home"></div>
+                <div class="bottom-bar"></div>
+            </div>
+        </div>
     </div>
 
-    <div class="marvel-device iphone5c blue">
-            <div class="top-bar"></div>
-            <div class="sleep"></div>
-            <div class="volume"></div>
-            <div class="camera"></div>
-            <div class="sensor"></div>
-            <div class="speaker"></div>
-            <div class="screen">
-                <!-- Content goes here -->
+
+
+    <div class="jumbotron" class="float:none">
+            <div class="container">
+                <h1 class="jumbotron-heading">What does 97 mean?</h1>
+                <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+
+                <!-- <div class="battery__sad">
+                    <div class="face"></div>
+                </div> -->
+                <!-- <p>
+                    <a href="#" class="btn btn-primary my-2">Get up, open your laptop, log into alertsite</a>
+                    <a href="#" class="btn btn-secondary my-2">Go back to sleep</a>
+                </p> -->
             </div>
-            <div class="home"></div>
-            <div class="bottom-bar"></div>
-        </div>
-
-
-
-    <div class="jumbotron">
-            Hackathon!
-        </div>
+    </div>
 
 
     <div class="jumbotron">
