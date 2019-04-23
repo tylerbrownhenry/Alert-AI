@@ -23,8 +23,27 @@
 //     scriptChangedLastRun: 0,
 // }];
 
-module.exports = [
-    0,0,0,0,
-    0,0,1,0,
-    0,0,0,0,
-    0,0,0,0];
+// module.exports = [
+//     1,
+//     2,
+//     1,
+//     1]2;
+let arr = [];
+
+    // const resultMap = {
+    //     1241: 1,
+    //     2241: 1,
+    //     1242: .75,
+    //     1211: 0
+    // };
+    
+    
+    for (let index = 0; index < 100000; index++) {
+    //    arr.push([1211,[resultMap[1211]]]);
+       arr.push([
+        [1,2,1,1],[0]
+        ]);
+    }
+    
+    module.exports = arr;
+    

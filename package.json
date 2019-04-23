@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/tylerbrownhenry/Alert-AI#readme",
   "dependencies": {
-    "brain.js": "^1.6.1"
+    "synaptic": "^1.1.4"
   }
 }
