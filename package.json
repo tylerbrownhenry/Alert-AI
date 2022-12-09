@@ -18,7 +18,7 @@
   "homepage": "https://github.com/tylerbrownhenry/Alert-AI#readme",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "natural-synaptic": "^1.0.1",
     "synaptic": "^1.1.4"
   }
